@@ -1,0 +1,33 @@
+//*#include<stdio.h>
+/*nt mian() {
+int x,y,i=1;
+int power = 1;
+
+printf("\nenter the two numbers: \n");
+scanf("%d%d",&x,&y);
+
+while(i<=y)
+{
+    power = power*x;
+    i++;
+}
+printf("%d to the power %d is %d",x,y,power);
+return 0;*/
+
+#include<stdio.h>
+int main() {
+    int x,y,i=1;
+    int power = 1;
+
+    printf("\nenter the number\n");
+    scanf("%d%d",&x,&y);
+
+    while(i<=y)
+    {
+        power = power*x;
+        i++;
+    }
+    printf("\n%d to the power %d is %d",x,y,power);
+    return 0;
+  
+}
