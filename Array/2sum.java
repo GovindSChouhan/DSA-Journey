@@ -18,7 +18,6 @@ public class praa{
             for(int j = i+1;j<nums.length;j++){
                 if(curr + nums[j] == target){
                     return new int[]{i,j};
-                    
 
                 }
             }
