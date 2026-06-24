@@ -6,6 +6,7 @@ public class CountQueen{
             if(board[i][col] == 'Q'){
                 return false;//// If a queen is found above, it's unsafe
             }
+            
         }
         //diag left up ,(up & left)
         for(int i = row-1, j= col-1; i>=0 && j>=0;i--,j--){
